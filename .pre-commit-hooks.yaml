@@ -3,3 +3,8 @@
     entry: autoflake --in-place
     language: python
     files: \.py$
+-   id: add-jira-issue
+    name: add-jira-issue
+    description: Add jira issue to commit message
+    entry: add-jira-issue
+    language: python
