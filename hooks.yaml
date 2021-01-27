@@ -4,4 +4,6 @@
     language: python
     files: \.py$
     args: []
+    additional_dependencies: 
+    - "autoflake==1.3.1"
 
