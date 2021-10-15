@@ -6,4 +6,11 @@
     args: []
     additional_dependencies: 
     - "autoflake==1.3.1"
-
+-   id: autopep8
+    name: autopep8
+    entry: autopep8
+    language: python
+    files: \.py$
+    args: []
+    additional_dependencies:
+    - "autopep8==1.5.7"

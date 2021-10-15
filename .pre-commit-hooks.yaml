@@ -3,3 +3,8 @@
     entry: autoflake --in-place
     language: python
     files: \.py$
+-   id: autopep8
+    name: autopep8
+    entry: autopep8 --in-place --aggressive
+    language: python
+    files: \.py$
